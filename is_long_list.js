@@ -7,7 +7,7 @@ const prompt = require("prompt-sync")({sigint: true});
 let arr = JSON.parse(prompt("Enter an array: "));
 
 if (arr.length > 9){
-    console.log(true);
+    console.log("Array has at least 10 items:", true);
 } else{
-    console.log(false)
+    console.log("Array has at least 10 items:", false);
 }
